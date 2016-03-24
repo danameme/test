@@ -9,5 +9,6 @@ int main(int argc, char * argv[]) {
 		printf("%s %d\n", "Number ", i);
 	}
 
+	printf("Finnished\n");
 	return 0;
 }
