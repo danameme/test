@@ -1,5 +1,5 @@
 # TEST - a test C program
 
-## Overview
+## Introduction
 
-This tests documentation for [new] application
+This is documentation for my [test](https://github.com/danameme/test) application
