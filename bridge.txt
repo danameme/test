@@ -1,0 +1,17 @@
+=========Bridge to external network======
+0. Start simualtion first in ns-3
+
+1. edit /etc/network/interfaces as below
+
+auto eth1
+iface eth1 inet manual
+
+auto br-client
+iface br-client inet manual
+bridge-ifaces eth1
+bridge-ports eth1
+up ifconfig eth1 up
+
+2. sudo ifup br-client
+
+3. sudo ifconfig br-client 10.0.0.105/24
